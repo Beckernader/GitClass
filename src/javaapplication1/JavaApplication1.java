@@ -5,6 +5,8 @@
  */
 package javaapplication1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Esther & Marciel
@@ -15,7 +17,9 @@ public class JavaApplication1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+         Scanner entrada= new Scanner(System.in);
+         System.out.println("aula de GIT modificada");
+         System.out.println("pra testar o branch");
     }
     
 }
